@@ -1,13 +1,21 @@
+*{
+  box-sizing: border-box
+}
 section{
   float: left;
+  padding: 10px;
+  border: 2px solid black
 }
 @media (min-width: 992px) {
   section{
     width: 33.33%
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   section{
-    
+    width: 50%
+  }
+  sectioin:nth-child(3){
+    width: 100%
   }
 }
