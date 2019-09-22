@@ -2,6 +2,13 @@
   box-sizing: border-box;
   font-family: monospace
 }
+.heading{
+  clear:both;
+  text-aligh: center;
+  font-size:1.25em;
+  font-weight: bold
+}
+
 section{
   float: left;
   padding: 10px;
