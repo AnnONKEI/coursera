@@ -14,8 +14,7 @@ section{
   position:absolute;
   top: 0;
   right: 0;
-  border-size: 0 0 1px 1px;
-  border: solid black;
+  border: 0 0 2px 2px solid black;
 }
 #title1{
   background: #d59898
