@@ -1,3 +1,13 @@
 section{
-  display: inline-block
+  float: left;
+}
+@media (min-width: 992px) {
+  section{
+    width: 33.33%
+  }
+}
+@media (max-width: 767px) {
+  section{
+    
+  }
 }
